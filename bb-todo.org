@@ -1,0 +1,46 @@
+#+TITLE: bb-todo org file
+#+AUTHOR: Michael Beebe
+#+STARTUP: indent
+
+* Info
+
+** Git Repo
+https://github.com/Acherontius/bb-todo.git
+
+** Languages
+
+*** Server
+SBCL (aserve)
+
+*** Client
+Python (libtcod)
+
+* Client
+
+** Initial Setup
+
+*** DONE Get tcod into project
+
+*** DONE Setup tutorial code to make sure it works
+
+** [0/1] Tasks
+
+*** TODO Task system
+
+** [0/3] UI
+
+*** TODO Create basic window system
+
+*** TODO Create lists
+
+**** TODO All tasks
+
+**** TODO Projects
+
+**** TODO Tasks for project
+
+*** TODO Create input field
+
+**** TODO Font coloring based on input
+
+* Server
