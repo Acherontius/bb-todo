@@ -25,4 +25,5 @@ while not tcod.console_is_window_closed():
 
     exit = handle_keys()
     if exit:
+        tcod.console_delete(0)
         break
