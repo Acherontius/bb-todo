@@ -44,3 +44,22 @@ Python (libtcod)
 **** TODO Font coloring based on input
 
 * Server
+
+** [1/2] Data
+
+*** DONE Task system
+At this point I think I can keep it to just tasks and projects on this end.
+Any reporting stuff might need models to send down server-side calculations,
+but most likely it will be simple enough to do on the client.
+
+**** DONE Tasks
+
+**** DONE Projects
+
+*** TODO Network Communication Models
+Simple model for json serialization. The base models themselves are simple enough to just use.
+Versioning might be an issue, but that might be over-complicating things.
+
+**** TODO Tasks
+
+**** TODO Projects
